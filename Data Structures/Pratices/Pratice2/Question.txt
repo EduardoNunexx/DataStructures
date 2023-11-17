@@ -1,0 +1,11 @@
+A rotation shifts the elements of the vector in a specific direction. 
+A right rotation is equivalent to taking the last element and inserting it into the first position.
+
+Implement the rotation operation. Note that by calculating the final positions correctly, you will perform a single operation to transpose the positions of the vector.
+
+Input
+Line 1: Size of the vector T and the number of elements to be rotated R
+Line 2: Elements of the vector
+
+Output
+Rotated vector

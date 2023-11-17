@@ -1,0 +1,21 @@
+With the approach of the World Cup, the flow of people in the ticket purchase queues has significantly increased. 
+As the queues are getting longer, less patient people tend to give up on buying tickets and end up leaving the queues, 
+thus freeing up space for others. When a person leaves the queue, all the people who were behind them take a step forward, 
+so there is never an empty space between two people. The queue initially contains N people, each with a different identifier.
+
+Joãozinho knows the initial state of it and the identifiers in the order of the people who left the queue. 
+Knowing that after the initial state, no one else entered the queue, Joãozinho wants to know the final state of the queue.
+
+Input
+
+The first line contains an integer N representing the quantity of people initially in the queue.
+The second line contains N integers representing the identifiers of the people in the queue. 
+The first identifier corresponds to the identifier of the first person in the queue. 
+It is guaranteed that two different people do not have the same identifier.
+The third line contains an integer M representing the quantity of people who left the queue.
+The fourth line contains M integers representing the identifiers of the people who left the queue, in the order they exited. 
+It is guaranteed that the same identifier does not appear twice in this list.
+
+Output
+
+Your program should print a line containing N-M integers with the identifiers of the people who remained in the queue, in the order of arrival.

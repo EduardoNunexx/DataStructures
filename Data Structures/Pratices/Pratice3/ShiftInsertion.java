@@ -21,6 +21,5 @@ public class ShiftInsertion {
         for(int x:newVector){
             System.out.println(x);
         }
-        
     }
 }
